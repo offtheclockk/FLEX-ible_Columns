@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex: 1;
+    background-color: aquamarine;
+    margin: 10px;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+.col-2{
+    display: flex;
+    flex: 2;
+    margin: 10px;
+    height: 40px;
+    background-color: aquamarine;
+    align-items: center;
+    padding: 10px;
+}
+.col-3{
+    display: flex;
+    flex: 3;
+    background-color: aquamarine;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+}
